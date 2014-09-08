@@ -1,5 +1,5 @@
 var assert = require("assert");
-var ioc = require('./ioc');
+var ioc = require('./index');
 
 describe('Ioc tests: ', function(){
 	
