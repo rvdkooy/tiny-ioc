@@ -1,0 +1,14 @@
+{
+  "name": "tiny-ioc",
+  "version": "0.0.0",
+  "description": "A really tiny ioc container",
+  "main": "ioc.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha tests.js --reporter list"
+  },
+  "author": "Ronald van der Kooij",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "~1.21.4"
+  }
+}
