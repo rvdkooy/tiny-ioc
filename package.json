@@ -1,11 +1,21 @@
 {
   "name": "tiny-ioc",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A really tiny ioc container",
   "main": "ioc.js",
   "scripts": {
     "test": "node node_modules/mocha/bin/mocha tests.js --reporter list"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rvdkooy/tiny-ioc"
+  },
+  "keywords": [
+    "ioc",
+    "container",
+    "service",
+    "locator"
+  ],
   "author": "Ronald van der Kooij",
   "license": "ISC",
   "dependencies": {
