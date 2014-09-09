@@ -18,7 +18,7 @@
   ],
   "author": "Ronald van der Kooij",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "mocha": "~1.21.4"
   }
 }
