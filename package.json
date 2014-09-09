@@ -1,6 +1,6 @@
 {
   "name": "tiny-ioc",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A really tiny ioc container",
   "main": "ioc.js",
   "scripts": {
