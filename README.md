@@ -9,9 +9,9 @@ A really simple and lightweight ioc container built in nodejs
 $ npm install tiny-ioc
 ```
 
-#How to use tiny-ioc
+# How to use tiny-ioc
 
-####Basic usage:
+#### Basic usage:
 You register your dependency in the container with a unique name. If you use the same name twice, tiny-ioc will throw an exception.
 
 ```javascript
@@ -27,7 +27,7 @@ console.log(resolvedobject.name); ==> outputs: "my name is ronald"
 
 ```
 
-####Nested Dependencies:
+#### Nested Dependencies:
 When resolving objects that have dependencies on other services, tiny-ioc will auto resolve them by default for you by mapping the name of the parameters.
 
 ```javascript
@@ -53,7 +53,7 @@ resolvedobject.doSomething() ==> outputs: "something happened!"
 
 ```
 
-####Singletons:
+#### Singletons:
 Tiny-ioc can also register your objects as singletons.    
 example:
 
@@ -74,7 +74,7 @@ console.log(secondResolvedObject.name'); ==> outputs: "Ronald"
 
 ```
 
-####Resolving dependencies without registration:
+#### Resolving dependencies without registration:
 If you have an object that has dependencies on other services, you can always let tiny-ioc inject those for you, even if the your object is not registered in the container.
 
 ```javascript
@@ -102,7 +102,7 @@ resolvedobject.doSomething() ==> outputs: "something happened!"
 
 ```
 
-####General
+#### General
 By default tiny-ioc will try to find all nested dependencies of a resolved object and will throw an error if it cannot find one. You can bypass this behavior when registering your object.    
 example:
 
